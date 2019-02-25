@@ -39,6 +39,13 @@ return "no cheese!" }
 
 
 function wordsThatStartWithB(words){
+  let arrayB=[]
+  for(let i=0;i<words.length;i++){
+    if(words[i][0]==="b"){
+      arrayB.push(words[i])
+    }
+  }
+return arrayB
   
 }
 
