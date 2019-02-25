@@ -1,6 +1,6 @@
 let dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 function dwarfRollCall(dwarves) { let dwarfArray=[]
-  for (let i=0;i<dwarves.length/2;i++){
+  for (let i=dwarves.length/2;i< dwarves.length;i++){
     dwarfArray.push(`${i+1}. ${dwarves[i]} `)
   }
   return dwarfArray.join("")
